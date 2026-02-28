@@ -1,4 +1,4 @@
-const a =  ()=>{
-    console.log("hello world")
+const a =  (name, age)=>{
+    console.log("hello world", name, age)
 }
-a();
+a("kartik", 25);
