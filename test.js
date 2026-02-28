@@ -1,4 +1,4 @@
-const a =  ()=>{
-    console.log("hello world")
+const a =  (name)=>{
+    console.log("hello world", name);
 }
-a();
+a("kartik");
